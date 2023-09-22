@@ -7,7 +7,7 @@ variable "port_no" {
 variable "env" {}
 variable "tags" {}
 variable "vpc_id" {}
-variable "allow_app_cidr" {}
+variable "allow_db_cidr" {}
 variable "instance_count" {}
 variable "instance_class" {}
 variable "engine_version" {}
